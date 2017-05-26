@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/txtReminderName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="ReminderName" />
+
+    <EditText
+        android:layout_below="@+id/txtReminderName"
+        android:id="@+id/txtFirtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="FirtName" />
+
+    <EditText
+        android:id="@+id/txtLastName"
+        android:layout_below="@+id/txtFirtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="LastName" />
+    <Button
+
+        android:layout_marginLeft="130dp"
+        android:layout_below="@id/txtLastName"
+        android:id="@+id/btnSave"
+        android:textSize="18sp"
+        android:inputType="textCapWords"
+        android:text="Save Information"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_toRightOf="@id/btnSave"
+        android:layout_below="@id/txtLastName"
+        android:id="@+id/btnDone"
+        android:text="Done"
+        android:inputType="textCapWords"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

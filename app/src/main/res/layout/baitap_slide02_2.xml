@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp">
+
+        <TextView
+            android:id="@+id/txtTenxe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Toyota,"
+            android:textColor="#1335fa"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtTinrao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/txtTenxe"
+            android:text="19,52525 tin rao"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="3dp"
+            android:text="Toàn Quốc"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="@mipmap/otob">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="140dp"
+            android:background="@drawable/sp_dangnhap"
+            android:text="3,6 tỉ"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="140dp"
+            android:background="#a18f8f"
+            android:text="26/3/2016"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toyota giao may mắn đến cho mọi nhà hãy gọi Toyota"
+        android:textColor="#fa0404"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivOto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/car" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:layout_toRightOf="@id/ivOto"
+            android:text="Mới"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/ivNSao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:src="@drawable/sao" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:layout_toRightOf="@id/ivNSao"
+            android:text="Trong nước"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/ivDiadiem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/nguoiaaaa" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:layout_toRightOf="@id/ivDiadiem"
+            android:text="Hà Nội"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="@mipmap/audi">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="140dp"
+            android:background="@drawable/sp_dangnhap"
+            android:text="18 tỉ"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="140dp"
+            android:background="#a18f8f"
+            android:text="26/3/2016"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toyota giao may mắn đến cho mọi nhà hãy gọi Toyota"
+        android:textColor="#fa0404"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

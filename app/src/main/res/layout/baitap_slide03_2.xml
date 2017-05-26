@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="32dp"
+        android:src="@mipmap/anhimic" />
+
+    <TextView
+        android:id="@+id/txtTenDN"
+        style="@style/bai02"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:background="@drawable/sprbai02"
+        android:hint="Tên Đăng Nhập"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/txtMatKhau"
+        style="@style/bai02"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/sprbai02"
+        android:hint="Mật Khẩu"
+        android:textSize="17sp" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/sp_dangnhap"
+        android:inputType="textCapWords"
+        android:padding="8dp"
+        android:text="Đăng Nhập"
+        android:textColor="@android:color/white" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:background="@mipmap/facea"
+            android:id="@+id/imgFace"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="16dp"
+             />
+
+        <TextView
+            android:id="@+id/txtFace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_toRightOf="@+id/imgFace"
+            android:layout_marginLeft="4dp"
+            android:text="Facebook"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtGoogle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="4dp"
+            android:text="Google+"
+            android:textColor="#464646"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imgGoogle"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_toLeftOf="@+id/txtGoogle"
+            android:background="@mipmap/icongoogle" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txtQuenMk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="Quên mật khẩu?"
+        android:textColor="#464646" />
+    <TextView
+        android:id="@+id/txtHDN"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:text="Bạn chưa có tài khoản? hủy đăng nhập ngay"
+        android:textColor="#101010"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

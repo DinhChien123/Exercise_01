@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<RelativeLayout
+    android:layout_weight="1"
+    android:background="@mipmap/otoa"
+    android:layout_width="match_parent"
+    android:layout_height="0dp">
+    <TextView
+        style="@style/baitap_slide02"
+        android:text="Lamborghini"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="12,111 tin rao."
+        style="@style/baitap_slide02_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:background="@mipmap/audia"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            style="@style/baitap_slide02"
+            android:text="Audi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="12,111 tin rao."
+            style="@style/baitap_slide02_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:background="@mipmap/otob"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            style="@style/baitap_slide02"
+            android:text="Lexus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="12,111 tin rao."
+            style="@style/baitap_slide02_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</LinearLayout>

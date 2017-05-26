@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:layout_gravity="top|center"
+    android:columnCount="2"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+android:background="#59ec2c"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/img_Automotriz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/car"
+            android:adjustViewBounds="true"
+            />
+
+        <TextView
+            android:id="@+id/txt_Automotriz"
+            android:textColor="#fcfbfb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="AUTOMOTRIZ"
+            android:layout_below="@+id/img_Automotriz"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="#528cd2"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/img_Calzado"
+            android:src="@mipmap/nguoi"
+            android:textColor="#fcfbfb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            />
+
+        <TextView
+            android:id="@+id/txt_Calzado"
+            android:textColor="#fcfbfb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_Calzado"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:text="CALZADO ROPA" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="#f7c603"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_Deportivo"
+            android:src="@mipmap/nguoi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            />
+
+        <TextView
+            android:id="@+id/txt_Deportivo"
+            android:textColor="#fcfbfb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_Deportivo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:text="DEPORTIVO" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="#ef130f"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_Entretenimiento"
+            android:layout_width="wrap_content"
+            android:src="@mipmap/nguoiaaaa"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            />
+
+        <TextView
+            android:id="@+id/txt_Entretenimiento"
+            android:textColor="#fcfbfb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_Entretenimiento"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:text="DEPORTIVO" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+android:background="#f40ba6"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_Restaurantes"
+            android:src="@mipmap/cham"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            />
+
+        <TextView
+            android:id="@+id/txt_Restaurantes"
+            android:textColor="#fcfbfb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_Restaurantes"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:text="       DEPORTIV   " />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+android:background="#1d23df"
+
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_Salud"
+            android:src="@mipmap/oto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            />
+
+        <TextView
+            android:id="@+id/txt_Salud"
+            android:textColor="#fcfbfb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_Salud"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:text="SALUD Y BELLEZA" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="#29ea23"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_Otros"
+            android:src="@mipmap/car"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            />
+
+        <TextView
+            android:id="@+id/txt_Otros"
+            android:textColor="#fcfbfb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_Otros"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:text="OTROS" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+android:background="#da102b"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_Vertodos"
+            android:src="@mipmap/cham"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:adjustViewBounds="true"
+            android:paddingTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/txt_Vertodos"
+android:textColor="#fcfbfb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_Vertodos"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:text="VER TODOS" />
+    </RelativeLayout>
+
+</GridLayout>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:id="@+id/rl01"
+    android:layout_marginTop="6dp"
+    android:background="@android:color/holo_orange_light"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+    <ImageView
+        android:id="@+id/imgHinh"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:background="@drawable/hinhtonr"
+        android:src="@mipmap/img_avatar01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtTacgia"
+        android:textColor="@android:color/white"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="6dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="Tác Giả: Phạm Thị Thu Hà"
+        android:layout_toRightOf="@+id/imgHinh"
+        android:layout_alignParentTop="true"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtMota"
+        android:textColor="@android:color/white"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtTacgia"
+        android:paddingLeft="6dp"
+        android:textStyle="italic"
+        android:textSize="18sp"
+        android:text="người đã có nhiều bài thơ tình yêu rất hay"
+        android:layout_toRightOf="@+id/imgHinh"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl02"
+        android:layout_marginTop="6dp"
+        android:layout_below="@+id/rl01"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <ImageView
+            android:id="@+id/imgHinh2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:background="@drawable/hinhtonr"
+            android:src="@mipmap/img_avatar02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtTacgia2"
+            android:textColor="@android:color/white"
+            android:layout_alignParentRight="true"
+            android:paddingLeft="6dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Tác Giả: Phạm Thị Thu Hà"
+            android:layout_toRightOf="@+id/imgHinh2"
+            android:layout_alignParentTop="true"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtMota2"
+            android:textColor="@android:color/white"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/txtTacgia2"
+            android:paddingLeft="6dp"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:text="người đã có nhiều bài thơ tình yêu rất hay"
+            android:layout_toRightOf="@+id/imgHinh2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl03"
+        android:layout_marginTop="6dp"
+        android:layout_below="@+id/rl02"
+        android:background="@android:color/holo_red_dark"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <ImageView
+            android:id="@+id/imgHinh3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:background="@drawable/hinhtonr"
+            android:src="@mipmap/img_avatar05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtTacgia3"
+            android:textColor="@android:color/white"
+            android:layout_alignParentRight="true"
+            android:paddingLeft="6dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Tác Giả: Phạm Thị Thu Hà"
+            android:layout_toRightOf="@+id/imgHinh3"
+            android:layout_alignParentTop="true"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtMota3"
+            android:textColor="@android:color/white"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/txtTacgia3"
+            android:paddingLeft="6dp"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:text="người đã có nhiều bài thơ tình yêu rất hay"
+            android:layout_toRightOf="@+id/imgHinh3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl04"
+        android:layout_marginTop="6dp"
+        android:layout_below="@+id/rl03"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <ImageView
+            android:id="@+id/imgHinh4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:background="@drawable/hinhtonr"
+            android:src="@mipmap/img_avatar06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtTacgia4"
+            android:textColor="@android:color/white"
+            android:layout_alignParentRight="true"
+            android:paddingLeft="6dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Tác Giả: Phạm Thị Thu Hà"
+            android:layout_toRightOf="@+id/imgHinh4"
+            android:layout_alignParentTop="true"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtMota4"
+            android:textColor="@android:color/white"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/txtTacgia4"
+            android:paddingLeft="6dp"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:text="người đã có nhiều bài thơ tình yêu rất hay"
+            android:layout_toRightOf="@+id/imgHinh4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</RelativeLayout>

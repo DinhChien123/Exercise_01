@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="6dp"
+        android:text="Tìm theo từ khóa( gợi ý Toyota)"
+        android:textColor="#033cc1"
+        android:textSize="14sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/sproto"
+        android:hint="Bạn tìm gì? Toyota, Audi"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="6dp"
+        android:text="Hãy tìm kiếm với"
+        android:textColor="#033cc1"
+        android:textSize="14sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/sp_bai3">
+
+        <TextView
+            android:id="@+id/txthangxe"
+            style="@style/baitap_slide06_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Hãng xe" />
+
+        <TextView
+            android:id="@+id/txtTatca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="165dp"
+            android:text="Tất cả"
+            android:textColor="#1b8e0a"
+            android:textSize="17sp" />
+
+        <ImageView
+            android:id="@+id/imgDaulon1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/daulonhon" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/sp_bai3">
+
+        <TextView
+            android:id="@+id/txtLoaixe"
+            style="@style/baitap_slide06_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Loại xe" />
+
+        <TextView
+            android:id="@+id/txtTatca1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="165dp"
+            android:text="Tất cả"
+            android:textColor="#1b8e0a" />
+
+        <ImageView
+            android:id="@+id/imgDaulon2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/daulonhon" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@id/txtGia"
+            style="@style/baitap_slide06_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Khoảng Giá:" />
+
+        <TextView
+            android:id="@+id/txtTatca2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tất cả"
+            android:textColor="#1b8e0a"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/NSX"
+            style="@style/baitap_slide06_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Năm Sản Xuất:" />
+
+        <TextView
+            android:id="@+id/txtTatca3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tất cả"
+            android:textColor="#1b8e0a"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/sp_bai3">
+
+        <TextView
+            android:id="@+id/txtTinhTP"
+            style="@style/baitap_slide06_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Tỉnh / TP" />
+
+        <TextView
+            android:id="@+id/txtTatca4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="165dp"
+            android:text="Tất cả"
+            android:textColor="#1b8e0a" />
+
+        <ImageView
+            android:id="@+id/imgDaulon4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/daulonhon" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtTT"
+            style="@style/bai05_slide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Tình trạng: " />
+
+        <RadioButton
+            android:id="@+id/rbTT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp" />
+
+        <TextView
+            style="@style/bai05_slide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/rbTT"
+            android:text="Mới" />
+
+        <RadioButton
+            android:id="@+id/rbcu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp" />
+
+        <TextView
+            style="@style/bai05_slide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/rbcu"
+            android:text="Cũ" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/sproto">
+
+            <ImageView
+             android:layout_marginTop="24dp"
+                android:layout_gravity="center"
+                android:layout_width="48dp"
+                android:layout_height="32dp"
+                android:background="@mipmap/suv" />
+            <TextView
+                android:layout_gravity="center"
+                android:text="Suv"
+                android:textSize="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/sproto">
+
+            <ImageView
+                android:layout_marginTop="24dp"
+                android:layout_gravity="center"
+                android:layout_width="48dp"
+                android:layout_height="32dp"
+                android:background="@mipmap/sedan" />
+            <TextView
+                android:layout_gravity="center"
+                android:text="Sedam"
+                android:textSize="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/sproto">
+
+            <ImageView
+                android:layout_marginTop="24dp"
+                android:layout_gravity="center"
+                android:layout_width="48dp"
+                android:layout_height="32dp"
+                android:background="@mipmap/caupe" />
+            <TextView
+                android:layout_gravity="center"
+                android:text="Caupe"
+                android:textSize="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/sproto">
+
+            <ImageView
+                android:layout_marginTop="24dp"
+                android:layout_gravity="center"
+                android:layout_width="48dp"
+                android:layout_height="32dp"
+                android:background="@mipmap/suv" />
+            <TextView
+                android:layout_gravity="center"
+                android:text="Cuv"
+                android:textSize="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/sproto">
+
+            <ImageView
+                android:layout_marginTop="24dp"
+                android:layout_gravity="center"
+                android:layout_width="48dp"
+                android:layout_height="32dp"
+                android:background="@mipmap/hatchback" />
+            <TextView
+                android:layout_gravity="center"
+                android:text="Cro"
+                android:textSize="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/sproto">
+
+            <ImageView
+                android:layout_marginTop="24dp"
+                android:layout_gravity="center"
+                android:layout_width="48dp"
+                android:layout_height="32dp"
+                android:background="@mipmap/hatchbeck" />
+            <TextView
+                android:layout_gravity="center"
+                android:text="Hatchbeck"
+                android:textSize="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

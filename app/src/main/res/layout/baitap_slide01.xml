@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgOto"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@android:color/holo_blue_dark"
+        android:src="@mipmap/audi" />
+
+    <TextView
+        android:id="@+id/txtGioithieu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgOto"
+        android:layout_marginTop="3dp"
+        android:text="Audi đẹp giá chỉ có 1 triệu đô, mẫu đẹp giá rẻ, có nhiều ưu đãi hấp dẫn."
+        android:textColor="#151515"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtGia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtGioithieu"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="5 tỉ 200 triệu"
+        android:textColor="#05fa6f"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/txtLanbanh"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/txtGia"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/sproto"
+        android:gravity="center"
+        android:text="Chi phí lăn bắnh"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtKe1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/txtGia"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/black" />
+
+    <TextView
+        android:id="@+id/txtMota"
+        style="@style/oto1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtKe1"
+        android:text="Mô tả" />
+
+    <TextView
+        android:id="@+id/txtMotaID"
+        style="@style/oto2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtKe2"
+        android:layout_toLeftOf="@+id/txtLanbanh"
+        android:layout_toStartOf="@+id/txtLanbanh"
+        android:text="88888" />
+
+    <TextView
+        android:id="@+id/txtKe2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/txtMota"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/black" />
+
+    <TextView
+        android:id="@+id/txtDD"
+        style="@style/oto1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtKe2"
+        android:text="Địa Chỉ" />
+
+    <TextView
+        android:id="@+id/txtĐiaiem"
+        style="@style/oto2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtKe3"
+        android:layout_alignLeft="@+id/txtMotaID"
+        android:layout_alignStart="@+id/txtMotaID"
+        android:text="Hà Nội" />
+
+    <TextView
+        android:id="@+id/txtKe3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/txtDD"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/black" />
+
+    <TextView
+        android:id="@+id/txtTT"
+        style="@style/oto1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtKe3"
+        android:text="Trạng Thái" />
+
+    <TextView
+        android:id="@+id/txtTThai"
+        style="@style/oto2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtKe4"
+        android:layout_alignLeft="@+id/txtĐiaiem"
+        android:layout_alignStart="@+id/txtĐiaiem"
+        android:text="Mới" />
+
+    <TextView
+        android:id="@+id/txtKe4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/txtTT"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/black" />
+
+    <TextView
+        android:id="@+id/txtXuatxu"
+        style="@style/oto1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtKe4"
+        android:text="Xuất Sứ" />
+
+    <TextView
+        android:id="@+id/txtXX"
+        style="@style/oto2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtXuatxu"
+        android:layout_alignBottom="@+id/txtXuatxu"
+        android:layout_alignEnd="@+id/txtNDang"
+        android:layout_alignRight="@+id/txtNDang"
+        android:text="Nhập Khẩu" />
+
+    <TextView
+        android:id="@+id/txtKe5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/txtXX"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/black" />
+
+    <TextView
+        android:id="@+id/txtKD"
+        style="@style/oto1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtKe5"
+        android:text="Kiểu Dáng" />
+
+    <TextView
+        android:id="@+id/txtKDang"
+        style="@style/oto2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtKe6"
+        android:layout_alignLeft="@+id/txtTThai"
+        android:layout_alignStart="@+id/txtTThai"
+        android:text="Sport" />
+
+    <TextView
+        android:id="@+id/txtKe6"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/txtKD"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/black" />
+
+    <TextView
+        android:id="@+id/txtNXS"
+        style="@style/oto1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtKe6"
+        android:text="Nhà Sản Xuất" />
+
+    <TextView
+        android:id="@+id/txtNXsuat"
+        style="@style/oto2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtNXS"
+        android:layout_alignBottom="@+id/txtNXS"
+        android:layout_alignLeft="@+id/txtKDang"
+        android:layout_alignStart="@+id/txtKDang"
+        android:text="Audi" />
+
+    <TextView
+        android:id="@+id/txtKe7"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/txtNXsuat"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/black" />
+
+    <TextView
+        android:id="@+id/txtND"
+        style="@style/oto1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtKe7"
+        android:text="Ngày Đăng" />
+
+    <TextView
+        android:id="@+id/txtNDang"
+        style="@style/oto2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtND"
+        android:layout_alignBottom="@+id/txtND"
+        android:layout_alignLeft="@+id/txtNXsuat"
+        android:layout_alignStart="@+id/txtNXsuat"
+        android:text="21/5/2017" />
+</RelativeLayout>

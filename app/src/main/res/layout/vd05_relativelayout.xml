@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgHinhanh"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:adjustViewBounds="true"
+        android:padding="32dp"
+        android:background="@android:color/holo_blue_dark"
+        android:src="@mipmap/img_avatar07"
+        android:layout_alignParentTop="true"
+         />
+
+    <EditText
+        android:id="@+id/txtUser"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/imgHinhanh"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:hint="Username" />
+
+    <EditText
+        android:id="@+id/txtPass"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/txtUser"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:hint="Password" />
+
+    <CheckBox
+        android:id="@+id/cbCheck"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignLeft="@+id/txtPass"
+        android:layout_alignStart="@+id/txtPass"
+        android:layout_below="@+id/txtPass"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/txtText"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_below="@+id/txtPass"
+        android:layout_marginTop="16dp"
+        android:layout_toRightOf="@+id/cbCheck"
+        android:gravity="center"
+        android:text=" remember me"
+        android:textColor="@android:color/background_dark"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtFogot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="forgot password?"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Sing In"
+        android:inputType="textCapWords"
+        android:layout_toLeftOf="@+id/btn02"
+        android:layout_toStartOf="@+id/btn02" />
+
+    <Button
+        android:id="@+id/btn02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btn01"
+        android:layout_toRightOf="@+id/txtText"
+        android:text="Login"
+        android:inputType="textCapWords"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

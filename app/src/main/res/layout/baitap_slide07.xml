@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#363535"
+        android:text="Thông số kĩ thuật"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:background="#d7fcf6"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="38dp">
+        <TextView
+            style="@style/baitap_slide07_01"
+            android:layout_gravity="center"
+            android:text="Dài x Dộng x Cao(mm)"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            style="@style/baitap_slide07_02"
+            android:layout_gravity="center"
+            android:text="100x222x333"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="38dp">
+        <TextView
+            style="@style/baitap_slide07_01"
+            android:layout_gravity="center"
+            android:text="Trọng lượng không tải"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            style="@style/baitap_slide07_02"
+            android:layout_gravity="center"
+            android:text="1500"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:background="#d7fcf6"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="38dp">
+        <TextView
+            style="@style/baitap_slide07_01"
+            android:layout_gravity="center"
+            android:text="Động cơ"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            style="@style/baitap_slide07_02"
+            android:layout_gravity="center"
+            android:text="XĂNG VVT-I"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="38dp">
+        <TextView
+            style="@style/baitap_slide07_01"
+            android:layout_gravity="center"
+            android:text="Dung tích động cơ"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            style="@style/baitap_slide07_02"
+            android:layout_gravity="center"
+            android:text="2000"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:background="#d7fcf6"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="38dp">
+        <TextView
+            style="@style/baitap_slide07_01"
+            android:layout_gravity="center"
+            android:text="Dung tích nhiên liệu"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            style="@style/baitap_slide07_02"
+            android:layout_gravity="center"
+            android:text="55"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="38dp">
+        <TextView
+            style="@style/baitap_slide07_01"
+            android:layout_gravity="center"
+            android:text="Phanh"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            style="@style/baitap_slide07_02"
+            android:layout_gravity="center"
+            android:text="Đĩa,sau tang trống"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:background="#d7fcf6"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="38dp">
+        <TextView
+            style="@style/baitap_slide07_01"
+            android:layout_gravity="center"
+            android:text="Bộ giảm sóc"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            style="@style/baitap_slide07_02"
+            android:layout_gravity="center"
+            android:text="Hệ thống treo trước độc lập, sau phụ thuộc"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="38dp">
+        <TextView
+            style="@style/baitap_slide07_01"
+            android:layout_gravity="center"
+            android:text="Lốp xe"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            style="@style/baitap_slide07_02"
+            android:layout_gravity="center"
+            android:text="205/65R15"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="10dp"
+        android:background="#d7fcf6"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/baitap_slide07_01"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="Vàng năm xe" />
+
+        <TextView
+            style="@style/baitap_slide07_02"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="đúc 15 inches" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<Button
+    android:text="Xe cùng loại"
+    android:textColor="@android:color/white"
+    android:inputType="textCapWords"
+    android:textSize="17dp"
+    android:background="@drawable/sprbaislide07"
+    android:layout_width="160dp"
+    android:layout_height="40dp" />
+        <Button
+            android:text="Xe cùng khoảng giá"
+            android:layout_marginLeft="30dp"
+            android:textSize="17dp"
+            android:textColor="@android:color/white"
+            android:inputType="textCapWords"
+            android:background="@drawable/sprbaislide07"
+            android:layout_width="170dp"
+            android:layout_height="40dp" />
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#363535"
+        android:text="Thông số người bán"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#73dcd0"
+        android:text="TOYUTA HÙNG VƯƠNG"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+</ScrollView>

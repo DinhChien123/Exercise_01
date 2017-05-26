@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txtLoaiTinrao"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="12dp"
+        android:textColor="#000"
+        style="@style/bai05"
+        android:text="Chọn loại tin rao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RadioButton
+        android:id="@+id/rbRadio"
+        android:layout_below="@+id/txtLoaiTinrao"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtTinthuong"
+        android:text="Tin Thường"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/bai05"
+        android:layout_alignBaseline="@+id/rbRadio"
+        android:layout_alignBottom="@+id/rbRadio"
+        android:layout_toRightOf="@+id/rbRadio"
+        android:layout_toEndOf="@+id/rbRadio" />
+    <RadioButton
+        android:id="@+id/rbRadio2"
+        android:layout_below="@+id/rbRadio"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Tin Víp 2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/bai05"
+        android:layout_alignBaseline="@+id/rbRadio2"
+        android:layout_alignBottom="@+id/rbRadio2"
+        android:layout_toRightOf="@+id/rbRadio2"
+        android:layout_toEndOf="@+id/rbRadio2" />
+    <RadioButton
+        android:id="@+id/rbRadio3"
+        android:layout_below="@+id/rbRadio2"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Tin Víp 1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/bai05"
+        android:layout_alignBaseline="@+id/rbRadio3"
+        android:layout_alignBottom="@+id/rbRadio3"
+        android:layout_toRightOf="@+id/rbRadio3"
+        android:layout_toEndOf="@+id/rbRadio3" />
+
+    <RadioButton
+        android:id="@+id/rbRadio4"
+        android:layout_below="@+id/rbRadio3"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Tin Víp Pro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/bai05"
+        android:layout_alignBaseline="@+id/rbRadio4"
+        android:layout_alignBottom="@+id/rbRadio4"
+        android:layout_toRightOf="@+id/rbRadio4"
+        android:layout_toEndOf="@+id/rbRadio4" />
+    <TextView
+        android:id="@+id/txtThoigiandang"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="12dp"
+        android:layout_below="@+id/rbRadio4"
+        android:textColor="#000"
+        style="@style/bai05"
+        android:text="Thời Gian Đăng Tin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/txtThoigian"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/sproto"
+        android:layout_below="@+id/txtThoigiandang"
+        android:layout_width="match_parent"
+        android:layout_height="38dp" />
+    <TextView
+        android:id="@+id/txtUutien"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="12dp"
+        android:layout_below="@+id/txtThoigian"
+        android:textColor="#000"
+        style="@style/bai05"
+        android:text="Ưu Tiên Tự Động"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Switch
+        android:id="@+id/swChon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtUutien"
+        android:layout_alignBottom="@+id/txtUutien"
+        android:layout_alignRight="@+id/txtThoigian"
+        android:layout_alignEnd="@+id/txtThoigian" />
+
+    <TextView
+        android:id="@+id/txtThanhtien"
+        android:text="Thành tiền: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/bai05"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="8dp"
+        android:layout_below="@id/txtUutien" />
+    <TextView
+        android:id="@+id/txttien"
+        android:text="0 VND "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/bai05"
+        android:layout_marginTop="12dp"
+        android:textColor="#03ac2b"
+        android:layout_toRightOf="@+id/txtThanhtien"
+        android:layout_below="@id/txtUutien" />
+    <Button
+        android:background="@drawable/sp_dangnhap"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="120dp"
+        android:layout_below="@+id/txttien"
+        android:text="Lưu và Tiếp Tục"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/sp_bai3">
+
+        <TextView
+            android:id="@+id/txtSapxep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Sắp xếp tin rao"
+            android:textSize="17sp" />
+
+        <ImageView
+            android:id="@+id/imgDaulon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/daulonhon" />
+
+        <TextView
+            android:id="@+id/txtTT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/imgDaulon"
+            android:text="Thông Thường"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginLeft="18dp">
+
+        <TextView
+            style="@style/bai03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Khoảng giá: " />
+
+        <TextView
+            style="@style/bai03.1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Tất cả" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginLeft="18dp">
+
+        <TextView
+            style="@style/bai03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Năm sản xuất: " />
+
+        <TextView
+            style="@style/bai03.1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Tất cả" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            style="@style/bai03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Tình trạng " />
+
+        <TextView
+            android:id="@+id/txtMoi"
+            style="@style/bai03.1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="115dp"
+            android:text="Mới" />
+
+        <TextView
+            android:id="@+id/txtCu"
+            style="@style/bai03.1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="60dp"
+            android:text="Cũ" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            style="@style/bai03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Xuất sứ " />
+
+        <TextView
+            android:id="@+id/txtTrogNuoc"
+            style="@style/bai03.1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="90dp"
+            android:text="Trong Nước" />
+
+        <TextView
+            android:id="@+id/txtNhapkhau"
+            style="@style/bai03.1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="25dp"
+            android:text="Nhập Khẩu" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/sp_bai3">
+
+        <TextView
+            android:id="@+id/txtNL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Nhiên Liệu"
+            android:textSize="17sp" />
+
+        <ImageView
+            android:id="@+id/imgDaulon1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/daulonhon" />
+
+        <TextView
+            android:id="@+id/txtTC"
+            style="@style/bai03.1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/imgDaulon1"
+            android:text="Tất Cả"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/sp_bai3">
+
+        <TextView
+            android:id="@+id/txtHS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Hộp Số"
+            android:textSize="17sp" />
+
+        <ImageView
+            android:id="@+id/imgDaulon2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/daulonhon" />
+
+        <TextView
+            android:id="@+id/txtTC2"
+            style="@style/bai03.1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/imgDaulon2"
+            android:text="Tất Cả"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/sp_bai3">
+
+        <TextView
+            android:id="@+id/txtTinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Tỉnh"
+            android:textSize="17sp" />
+
+        <ImageView
+            android:id="@+id/imgDaulon3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/daulonhon" />
+
+        <TextView
+            android:id="@+id/txtTQ"
+            style="@style/bai03.1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/imgDaulon3"
+            android:text="Toàn Quốc"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/txtBoChon"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_weight="1"
+            android:background="@drawable/sp_03_2"
+            android:text="Bỏ Chọn" />
+
+        <Button
+            android:id="@+id/txtLoc"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="2"
+            android:background="@drawable/sp_dangnhap"
+            android:text="Lọc" />
+    </LinearLayout>
+</LinearLayout>
